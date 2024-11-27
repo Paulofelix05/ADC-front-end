@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #4C86C6;
+}
+
+.container {
+  display: flex;
+  width: 80%;
+  max-width: 3000px;
+  height: 700px;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.left-panel {
+  background-color: #3B76AC;
+  color: white;
+  flex: 0.9;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.left-panel h2 {
+  font-size: 50px;
+  margin-bottom: 300px;
+}
+
+
+
+.left-panel p {
+  font-size: 25px;
+  margin-bottom: 30px;
+  position: relative;
+  top: -270px;
+}
+
+.left-panel h1 {
+  font-size: 32px;
+  line-height: 5.4;
+}
+
+.right-panel {
+  flex: 1.3;
+  padding: 40px 20px;
+}
+
+.right-panel h2 {
+  font-size: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.aaa {
+  justify-content: center;
+}
+.terms {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+}
+
+.terms a {
+  color: #3B76AC;
+  text-decoration: none;
+}
+
+.terms a:hover {
+  text-decoration: underline;
+}
+
+.social-buttons {
+  display: flex;
+  gap: 10px;
+  display: grid;
+  grid-template-columns: 0.2fr 0.2fr;
+  justify-content: center;
+}
+
+button.google,
+button.facebook {
+  flex: 3;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-top: 20px;
+  
+}
+
+button.google {
+  background-color: #4285F4;
+  color: white;
+}
+
+button.facebook {
+  background-color: #3B5998;
+  color: white;
+}
+
+button.google:hover,
+button.facebook:hover {
+  opacity: 0.9;
+}
+
+.login-link {
+  text-align: left;
+  font-size: 18px;
+  color: #0000CD;
+  text-decoration: none;
+  position: relative;
+  top: 270px;
+}
+
+.login-link:hover {
+  text-decoration: underline;
+}
+
+.continue-btn {
+  background-color: #0000CD;
+  color: white;
+  padding: 5px;
+  border: none;
+  border-radius: 10px;
+  font-size: 25px;
+  padding-left: 10px;
+  transform: scaleX(0.7);
+  margin-top: 220px;
+  margin-left: 500px;
+}
+
+.continue-btn:hover {
+  background-color: #2F5B84;
+}
+
+.email {
+  border-radius: 10px;
+  flex: 3;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #ADD8E6;
+  border-color: black;
+}
